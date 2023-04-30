@@ -99,7 +99,7 @@ function Sidebar(props) {
     </div>
   </div>
   <div className="main-content">
-    <header>
+    <header className='hd1'>
       <div className="header-content">
         <label htmlFor="menu-toggle">
           <span className="las la-bars" />

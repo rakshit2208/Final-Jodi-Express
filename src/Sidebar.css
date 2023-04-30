@@ -190,7 +190,7 @@ ul{
     transition: margin-left 300ms;
 }
 
-header {
+.hd1 {
     position: fixed;
     right: 0;
     top: 0;
@@ -510,7 +510,7 @@ table tbody tr {
         z-index: 90;
     }
     
-    header {
+    .hd1 {
         left: 0;
         width: 100%;
     }
