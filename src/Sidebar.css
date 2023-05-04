@@ -6,14 +6,14 @@
     --text-grey: #ffffff;
 }
 
-* {
+/* * {
     
     text-decoration: none;
     list-style-type: none;
 
     font-family: 'Merriweather', sans-serif;
     
-}
+} */
 
 #menu-toggle {
     display: none;
@@ -95,7 +95,7 @@ ul{
     padding: 2rem 0rem;
 }
 
-.bg-img {
+.bg-img22 {
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 50%;

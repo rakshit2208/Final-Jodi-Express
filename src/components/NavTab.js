@@ -15,9 +15,9 @@ const NavTab = (props) => {
     <Sidebar username={props.name}/>
     
    <div className='cont'>
-  <h1>
+  {/* <h1>
     
-  </h1>
+  </h1> */}
   <main className='main1'>
     <input className="inp" id="tab1" type="radio" name="tabs" defaultChecked />
     <label htmlFor="tab1" className='label1'>1</label>

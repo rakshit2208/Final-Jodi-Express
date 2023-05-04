@@ -76,20 +76,20 @@ function EducationDetails() {
     <div>
         <div className="formcontainer">
   <div className="title">Eductional Details</div>
-  <div className="content">
+  <div className="content33">
     <form action="#">
       <div className="user-details">
-        <div className="input-box">
-          <span className="details">College Name</span>
+        <div className="input-box22">
+          <span className="">College Name</span>
           <input type="text" placeholder=" College name" required value={collegeName}  onChange={(e) => setCollegeName(e.target.value)} name="collegeName" />
         </div>
-        <div className="input-box">
-          <span className="details">Year Of Passing</span>
+        <div className="input-box22">
+          <span className="">Year Of Passing</span>
       
           <input type="text" placeholder=" year of passing" required value={yop}  onChange={(e) => setYop(e.target.value)} name="yop" />
         </div>
        
-       <select className="form-select input-box" required value={degree} onChange={(e) => setDegree(e.target.value)} name="pob" aria-label="Default select example">
+       <select className="form-select input-box22" required value={degree} onChange={(e) => setDegree(e.target.value)} name="pob" aria-label="Default select example">
         <option selected>Degree</option>
         <option value="Btech">Btech</option>
         <option value="Mtech">Mtech</option>

@@ -1,20 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 *{
-  margin: 0;
+  /* margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  box-sizing: border-box; */
   font-family: 'Poppins',sans-serif;
 }
-body{
+/* body{
   height: 100vh;
-  /* display: grid; */
+ 
   justify-content: center;
   align-items: center;
-  /* padding: 10px; */
-  /* background: #f2f6ff; */
-  /* background: url("https://wallpapers.com/images/hd/pastel-background-f16tvnl9d0ad4r7a.jpg"); */
-  /* background-repeat: no-repeat;  */
-}
+  
+} */
 
 .errormsg{
   color: red;
@@ -22,7 +19,7 @@ body{
   font-weight: normal;
 }
 .container1{
-  /* margin-left: 20%; */
+  margin: auto;
   max-width: 400px;
   width: 120%;
   background-color: #fff;
@@ -45,7 +42,7 @@ body{
   border-radius: 5px;
   background: #ea025b;
 }
-.content form .user-details1{
+.content11 form .user-details1{
   /* display: flex; */
   flex-wrap: wrap;
   justify-content: space-between;
@@ -145,7 +142,7 @@ form .user-details1 .input-box1{
   form .category{
     width: 100%;
   }
-  .content form .user-details1{
+  .content11 form .user-details1{
     max-height: 400px;
     /* overflow-y: scroll; */
   }
@@ -154,7 +151,7 @@ form .user-details1 .input-box1{
   }
   }
   @media(max-width: 459px){
-  .container1 .content .category{
+  .container1 .content11 .category{
     flex-direction: column;
   }
 }

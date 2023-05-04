@@ -150,15 +150,15 @@ function Signup() {
     <div>
       <div className="container1">
     <div className="title">Signup</div>
-    <div className="content">
+    <div className="content11">
       <form action="#">
         <div className="user-details1">
           <div className="input-box1">
-            <span className="details">Username</span>
+            <span className="">Username</span>
             <input type="text" placeholder="Enter your username" required value={username}  onChange={(e) => setUserName(e.target.value)} name="username"  />
           </div>
           <div className="input-box1">
-            <span className="details">Email</span>
+            <span className="">Email</span>
             <input type="email" placeholder="Enter your email" required  value={email}  onChange={(e) => setEmail(e.target.value)} name="email" />
           </div>
           {/* <div className="input-box1">
@@ -166,7 +166,7 @@ function Signup() {
             <input type="text" placeholder="Enter your number" required />
           </div> */}
           <div className="input-box1">
-            <span className="details">Password</span>
+            <span className="">Password</span>
             <input type="password" placeholder="Enter your password" required value={password}  onChange={(e) => setPassword(e.target.value)} name="password"/>
           </div>
 
@@ -189,8 +189,8 @@ function Signup() {
               autoClose={5000}
             />
 
-            <span className="text">Already Have An Account? &nbsp;
-              <Link to="/login" className="text login-link">Login</Link>
+            <span className="text12">Already Have An Account? &nbsp;
+              <Link to="/login" className="text12">Login</Link>
             </span>
           </div>
 

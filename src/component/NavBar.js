@@ -26,29 +26,29 @@ export const NavBar = () => {
               <Col xs={6} md={8} className='ui'>
                 <ul class="navbar-nav">
                    <li class="nav-item a6">
-                   <a class="nav-link active o" aria-current="page" href="#">HOME   </a>
+                   <a class="nav-link  o" aria-current="page" href="#">HOME   </a>
                   </li>
                   <li class="nav-item a7">
-                    <a class="nav-link active o" href="#aboutus">ABOUT US </a>
+                    <a class="nav-link  o" href="#aboutus">ABOUT US </a>
                   </li>
                   <li class="nav-item a8">
-                    <a class="nav-link active o" href="#whyus">WHY US   </a>
+                    <a class="nav-link  o" href="#whyus">WHY US   </a>
                   </li>
                   <li class="nav-item a9">
-                    <a class="nav-link active o" href="#contactus">CONTACT US   </a>
+                    <a class="nav-link  o" href="#contactus">CONTACT US   </a>
                   </li>
                 </ul>
               </Col>
               <Col xs={6} md={3}>
               <ul class="navbar-nav">
                   <li class="nav-item ">
-                   <Link class="nav-link active o hue"  aria-current="page" to="/login">Log In </Link>
+                   <a class="nav-link o hue">Log In </a>
                   </li>
                   <li class="nav-item ">
-                    <a class="nav-link active o hef" href="#">|</a>
+                    <a class="nav-link o hef" href="#">|</a>
                   </li>
                   <li class="nav-item ">
-                    <a class="nav-link active o hug" href="#">Sign Up  </a>
+                    <a class="nav-link o hug" href="#">Sign Up  </a>
                   </li>
                   </ul>
 

@@ -83,17 +83,17 @@ const DeletePage = () => {
 
 
 <div className="title">Delete Account</div>
-<div className="content">
+<div className="content11">
   <form action="#">
     <div className="user-details1">
       
       <div className="input-box1">
-        <span className="details">Email</span>
+        <span className="">Email</span>
         <input type="email" placeholder="Enter your email" required value={email}  onChange={(e) => setEmail(e.target.value)} name="email" />
       </div>
      
       <div className="input-box1">
-        <span className="details">Password</span>
+        <span className="">Password</span>
         <input type="password" placeholder="Enter your password" required value={password}  onChange={(e) => setPassword(e.target.value)} name="password" />
       </div>
      

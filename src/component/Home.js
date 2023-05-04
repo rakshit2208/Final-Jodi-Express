@@ -44,7 +44,7 @@ export const Home = () => {
             </figure>
             <div class="article-body">
               <h2>Cutes Couples</h2>
-              <p>
+              <p style={{textAlign:"center"}}>
                 congue bibendum eros. Etiam mattis lobortis porta. Vestibulum ultrices iaculis enim imperdiet egestas.
               </p>
               <a href="#" class="read-more">
@@ -60,11 +60,11 @@ export const Home = () => {
 
           <div class="article-wrapper">
             <figure>
-              <img src="https://image2.jdomni.in/banner/12082021/0D/64/7B/56BDD752E7B04D069F2901A60F_1628769026338.jpg?output-format=webp" alt="" />
+              <img src="https://image2.jdomni.in/banner/12082021/0D/64/7B/56BDD752E7B04D069F2901A60F_1628769026338.jpg?output-format=webp" alt="" className='img2'/>
             </figure>
             <div class="article-body">
               <h2>Shaddi MAIN Dekho</h2>
-              <p>
+              <p style={{textAlign:"center"}}>
                 congue bibendum eros. Etiam mattis lobortis porta. Vestibulum ultrices iaculis enim imperdiet egestas.
               </p>
               <a href="#" class="read-more">
@@ -80,11 +80,11 @@ export const Home = () => {
 
           <div class="article-wrapper">
             <figure>
-              <img src="https://image3.jdomni.in/banner/12082021/2B/65/38/55959E589A5BCD0967CD713FAB_1628768531605.jpg?output-format=webp" alt="" />
+              <img src="https://image3.jdomni.in/banner/12082021/2B/65/38/55959E589A5BCD0967CD713FAB_1628768531605.jpg?output-format=webp" alt="" className='img2' />
             </figure>
             <div class="article-body">
               <h2>Haath Thaam le</h2>
-              <p>
+              <p style={{textAlign:"center"}}>
                 congue bibendum eros. Etiam mattis lobortis porta. Vestibulum ultrices iaculis enim imperdiet egestas.
               </p>
               <a href="#" class="read-more">
@@ -104,9 +104,9 @@ export const Home = () => {
         <h1 className='hab'>Profile Picture</h1>
           <Slider {...settings} className='mona' >
           
-            <div className="card-wrapper">
-                <div className="card nao">
-                    <div className="card-image cgg">
+            <div className="cardd-wrapper">
+                <div className="cardd nao">
+                    <div className="cardd-image cgg">
                         <img src="https://cfb.rabbitloader.xyz/1zr9i3lb/rls.t-nw-a28/blog/wp-content/uploads/2021/08/Sumit-and-Vani-_-New-Delhi-Wedding-_-WeddingSutra.jpg" className='cmg'/>
                     </div>
                     <ul className="social-icons">
@@ -117,9 +117,9 @@ export const Home = () => {
                     </div>
                 </div>
             </div>
-            <div className="card-wrapper">
-                <div className="card nao">
-                    <div className="card-image cgg">
+            <div className="cardd-wrapper">
+                <div className="cardd nao">
+                    <div className="cardd-image cgg">
                         <img src="https://i.pinimg.com/736x/2d/71/0b/2d710b0092b4d7a79867db57a4418bf6.jpg" className='cmg'/>
                     </div>
                     <ul className="social-icons">
@@ -130,9 +130,9 @@ export const Home = () => {
                     </div>
                 </div>
             </div>
-            <div className="card-wrapper">
-                <div className="card nao">
-                    <div className="card-image cgg">
+            <div className="cardd-wrapper">
+                <div className="cardd nao">
+                    <div className="cardd-image cgg">
                         <img src="https://i.pinimg.com/236x/81/8b/10/818b10cf03f1736027420fbaec28c822.jpg" className='cmg'/>
                     </div>
                     <ul className="social-icons">
@@ -143,9 +143,9 @@ export const Home = () => {
                     </div>
                 </div>
             </div>
-            <div className="card-wrapper">
-                <div className="card nao">
-                    <div className="card-image cgg">
+            <div className="cardd-wrapper">
+                <div className="cardd nao">
+                    <div className="cardd-image cgg">
                         <img src="https://cdn0.weddingwire.in/article/5894/3_2/1280/jpg/84985-couple-portrait-ideas-for-your-wedding-house-on-the-clouds.webp" className='cmg'/>
                     </div>
                     <ul className="social-icons">
@@ -181,12 +181,12 @@ export const Home = () => {
           </div> 
           
           <section className='noqw'>
-          <div class="profile-card">
+          <div class="profile-cardd">
       <div class="container cohna">
         <h2 class="heading" id='whyus'>WHY US</h2>
 
-        <div class="card-grid">
-          <div class="card card0">
+        <div class="cardd-grid">
+          <div class="cardd cardd0">
             <div class="overlay">
               <div class="content">
                 <h2 className='ful'>Kratos</h2>
@@ -201,7 +201,7 @@ export const Home = () => {
               </div>
             </div>
           </div>
-          <div class="card card1">
+          <div class="cardd cardd1">
             <div class="overlay">
               <div class="content">
                 <h2 className='ful'>Kratos</h2>
@@ -216,7 +216,7 @@ export const Home = () => {
               </div>
             </div>
           </div>
-          <div class="card card2">
+          <div class="cardd cardd2">
             <div class="overlay">
               <div class="content">
                 <h2 className='ful'>Kratos</h2>
@@ -231,7 +231,7 @@ export const Home = () => {
               </div>
             </div>
           </div>
-          <div class="card card3">
+          <div class="cardd cardd3">
             <div class="overlay">
               <div class="content">
                 <h2 className='ful'>Kratos</h2>
@@ -255,7 +255,7 @@ export const Home = () => {
       
       <Row>
         <Col xs={6} md={2}>
-          <img src="https://image2.jdomni.in/banner/12082021/E0/B3/F0/5786DC8ACCB769F95D7B94E399_1628770413058.png?output-format=webp" className='qy'></img>
+          <img src="https://image2.jdomni.in/banner/12082021/E0/B3/F0/5786DC8ACCB769F95D7B94E399_1628770413058.png?output-format=webp" className='qy12'></img>
         </Col>
         <Col xs={6} md={8} className='lk'>
         <div class="slider" >

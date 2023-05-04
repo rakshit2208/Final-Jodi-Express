@@ -15,7 +15,7 @@ import ErrorPage from './ErrorPage';
 import DeletePage from './DeletePage';
 
 // import { Login } from './component/Login';
-import 'bootstrap/dist/css/bootstrap.min.css';
+// import 'bootstrap/dist/css/bootstrap.min.css';
 import { Footer } from './component/Footer'
 import { NavBar } from './component/NavBar'
 import { Home } from './component/Home'
@@ -42,8 +42,8 @@ function App() {
 
   return (
 	<>
-	 <NavBar/>
-	 {/* <Home/> */}
+	 {/* <NavBar/> */}
+
     <Router>
       
      {/* <NavBar/> */}
@@ -59,8 +59,8 @@ function App() {
 				<Route path="/signup" element={<Signup />} />
 				<Route path="/login" element={<Login />} /> 
 				<Route path="*" element={<Login />} />	
-				<Route path="/" element={<Home/>} />
-                 {/* <Route path="/login" element={<Login/>} /> */}
+				{/* <Route path="/" element={<Home/>} />
+                 <Route path="/login" element={<Login/>} /> */}
 				
 		
 
@@ -92,7 +92,7 @@ function App() {
 		</Routes>
 
 	
-		<Footer/>
+		{/* <Footer/> */}
 	
 	  
     </Router>

@@ -2,12 +2,18 @@
     background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("https://thumbs.dreamstime.com/b/all-you-need-love-text-d-reder-red-silk-ribbon-forming-heart-shape-grey-background-267492441.jpg");
     background-size: cover;
     background-position:center ;
-    background-color: #FF5033;
+    /* background-color: #FF5033; */
+    
 }
 
 .sd 
 {
     padding-top:400px;
+    margin-left: -40px;
+    margin-right: -50px;
+    margin-bottom: -30px;
+   
+    
 }
 .ql 
 {
@@ -233,7 +239,7 @@
     .sd 
     {
         position: relative;
-        top:300px;
+        top:400px;
         width:443px;
     }
 }

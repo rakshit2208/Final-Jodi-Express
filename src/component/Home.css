@@ -1,18 +1,19 @@
 .bg-img1
 {
     width:100vw;
-    height: 525px;
-    
+    height: 563px;
     position: absolute;
     top:0;
     left:0;
     z-index:-1;
+    
     
 }
 .rk 
 {
     height:500px;
 }
+
 
 article {
     --img-scale: 1.001;
@@ -44,6 +45,7 @@ article {
     letter-spacing: 0.06em;
     color: var(--title-color);
     transition: color 0.3s ease-out;
+    text-align: center;
   }
   
   figure {
@@ -54,10 +56,13 @@ article {
   }
   
   article .img2 {
-    max-width: 100%;
+    /* max-width: 100%; */
     transform-origin: center;
     transform: scale(var(--img-scale));
     transition: transform 0.4s ease-in-out;
+    height: auto;
+ 
+ 
   }
   
   .article-body {
@@ -68,6 +73,7 @@ article {
     display: inline-flex;
     align-items: center;
     text-decoration: none;
+    padding-left: 95px;
     color: #28666e;
   }
   
@@ -99,21 +105,13 @@ article {
   Generic layout (demo looks)
   **************************/
   
-  *,
+  /* *,
   *::before,
   *::after {
     box-sizing: border-box;
-  }
+  } */
   
-  body {
-    margin: 0;
-   /* padding: 48px 0;*/
-    font-family: "Figtree", sans-serif;
-    font-size: 1.2rem;
-    line-height: 1.6rem;
-    /*background-image: linear-gradient(45deg, #7c9885, #b5b682);*/
-    background-color: rgb(255, 255, 255);
-  }
+
   
   .articles {
     display: grid;
@@ -126,7 +124,7 @@ article {
   
   @media screen and (max-width: 960px) {
     article {
-      container: card/inline-size;
+      container: cardd/inline-size;
 
     }
     .article-body p {
@@ -145,7 +143,7 @@ article {
     }
   }
   
-  @container card (min-width: 380px) {
+  @container cardd (min-width: 380px) {
     .article-wrapper {
       display: grid;
       grid-template-columns: 100px 1fr;
@@ -163,7 +161,7 @@ article {
          color:#ff5033;;
     }
 
-    figure img {
+    figure .img2 {
       height: 100%;
       aspect-ratio: 1;
       object-fit: cover;
@@ -179,6 +177,8 @@ article {
     white-space: nowrap; 
     width: 1px;
   }
+
+
   .read-more:hover
   {
     color:#ff5033;;
@@ -242,9 +242,9 @@ article {
     border-radius: 15px 15px 15px 15px;
     height:600px;
     width:600px;
-    position:relative;
-      top:100px;
-    left:250px;
+    position:absolute;
+    top:2100px;
+    left:900px;
 }
 
 .g{
@@ -326,14 +326,14 @@ article {
    
 } 
 
-input 
+/* input
 {
-  color: rgb(51, 51, 51);
+    color: rgb(51, 51, 51);
     height: 60px;
     border-color: rgb(209, 209, 209);
     background-color: rgb(255, 255, 255);
     
-}
+} */
 .ads
 {
   position: relative;
@@ -360,14 +360,16 @@ input
   border-color: #ff5033;
    height: 50px;
 }
-.qy
+.qy12
 {
   border-radius: 15px;
-  height:300px;
-  
-  position: relative;
+  /* height:300px; */
+  position: absolute;
   top: 50px;
-  right: 115px;
+  /* right: 115px; */
+  left: -22px;
+ max-width: 100%;
+  height: 305px;
   
 }
 .lk 
@@ -396,7 +398,7 @@ body {
 
 .slider {
   position: relative;
-  width: 800px;
+  width: 950px;
   height: 300px;
   margin: 50px auto;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12),
@@ -481,15 +483,18 @@ body {
 .slide-title {
   margin-bottom: 20px;
   font-size: 36px;
+  text-align: center;
 }
 
 .slide-text {
   margin-bottom: 20px;
+  text-align: center;
 }
 
 .slide-link {
   display: inline-block;
   padding: 10px 20px;
+  margin-left: 130px;
   color: #fff;
   border-radius: 3px;
   text-decoration: none;
@@ -498,6 +503,11 @@ body {
 
 .slide-image img {
   max-width: 100%;
+  /* height: 16em; */
+  /* height: 260px; */
+  /* margin-right: 50px; */
+
+ 
 }
 
 /* Slide animations */
@@ -553,11 +563,11 @@ body {
 {
   height:50px;
   position: relative;
-  right:70px;
+  /* right:70px; */
 }
 .yow 
 {
-  position: relative;
+    position: relative;
     bottom: 50px;
     left: 70px;
     font-size:23px;
@@ -592,14 +602,14 @@ body {
 {
   position: relative;
   bottom: 60px;
-  left: 130px;
+  left: 70px;
   font-size:20px;
 }
 .kg1 
 {
   height:50px;
   position: relative;
-  right:70px;
+  /* right:70px; */
   bottom:40px;
 }
 .yow1 
@@ -613,49 +623,49 @@ body {
 {
   position: relative;
   bottom: 87px;
-  left: 80px;
+  left: 70px;
   font-size:20px;
 }
 .kg2 
 {
   height:50px;
   position: relative;
-  right:70px;
+  /* right:70px; */
   bottom:70px;
 }
 .yow2
 {
-  position: relative;
-   bottom:120px;
-    left: 30px;
+    position: relative;
+    bottom:120px;
+    left: 70px;
     font-size:23px;
 }
 .yov2
 {
   position: relative;
   bottom: 125px;
-  left: 50px;
+  left: 70px;
   font-size:20px;
 }
 .kg3 
 {
   height:50px;
   position: relative;
-  right:70px;
+  /* right:70px; */
   bottom:100px;
 }
 .yow3 
 {
   position: relative;
    bottom:150px;
-    left: 40px;
+    left: 70px;
     font-size:23px;
 }
 .yov3 
 {
   position: relative;
   bottom: 160px;
-  left: 125px;
+  left: 70px;
   font-size:20px;
 }
 /*.kg2 
@@ -754,7 +764,7 @@ body {
     width:440px;
   }
  
-  .qy 
+  .qy12 
   {
     position: relative;
     left:50px;
@@ -777,10 +787,9 @@ body {
   {
     width: 350px;
     height: 300px;
-    position: relative;
-    top: -10px;
-    
-    left: -20px;
+    position: absolute;
+    top: 1820px;
+    left: 90px;
   }
   .my 
   {
@@ -885,9 +894,11 @@ body {
   {
     margin-right: 200px;
   }
-  .bg-img
+  .bg-img1
   {
-    width:443px;
+    /* width:443px; */
+    height: auto;
+    
   }
   .su1 
 {
@@ -1061,21 +1072,21 @@ span a:hover{
 
  
  
-  /*.card1 
+  /*.cardd1 
   {
     position: relative;
     bottom: 100px;
     width: 340px;
     left: 40px;
   } 
-  .card2 
+  .cardd2 
   {
     position: relative;
     bottom: 100px;
     width: 340px;
     left: 40px;
   } 
-  .card3 
+  .cardd3 
   {
     position: relative;
     bottom: 100px;
@@ -1113,20 +1124,20 @@ h2.heading:hover
 {
   color:#ff5033
 }
-.profile-card {
+.profile-cardd {
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100vh;
 }
-.card-grid {
+.cardd-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 20px;
     position: relative;
     bottom:100px;
 }
-.card {
+.cardd {
     width: 100%;
     height: 400px;
     display: block;
@@ -1135,26 +1146,25 @@ h2.heading:hover
     overflow: hidden;
     position: relative;
     top:120px;
-    /*filter: blur(3px);*/
     transition: background 0.8s linear;
 }
-.card0 {
+.cardd0 {
     background: url('https://www.dipakstudios.com/gallery/1535304191SAND5712.jpg') center center no-repeat;
     background-size: 400px;
 }
-.card1 {
+.cardd1 {
     background: url('https://i.pinimg.com/originals/11/27/38/112738afaa811c81935a04ab727d3421.jpg') center center no-repeat;
     background-size: 400px;
 }
-.card2 {
+.cardd2 {
     background: url('https://people.com/thmb/q1H6Y5A0UdzAK5kV61AB34NYv24=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(1245x299:1247x301)/Christina-Hall-and-Josh-Hall-Wedding-090422-02-2000-65c5d5ccec9c4f9d8c3868018f2edcaa.jpg') center center no-repeat;
     background-size: 400px;
 }
-.card3 {
+.cardd3 {
     background: url('https://cdn0.weddingwire.in/article/5674/original/1280/jpg/84765-tips-to-provide-excellent-customer-service-to-couples-danish-bin-arif-1.jpeg') center center no-repeat;
     background-size: 400px;
 }
-.card:hover {
+.cardd:hover {
   background-size: 600px;
   background-position: left center;
   filter: blur(); 
@@ -1195,10 +1205,10 @@ h2.heading:hover
 .icons > a {
   color: #fff;
 }
-.card:hover .content {
+.cardd:hover .content {
     right: 0;
 }
-.card:hover .icons {
+.cardd:hover .icons {
   opacity: 1;
 }
 .learn-more-btn {
@@ -1235,7 +1245,7 @@ h2.heading:hover
     position: relative;
     top:-100px;
   }
-  .card0 
+  .cardd0 
   {
     width:220px;
     position: relative;
@@ -1243,7 +1253,7 @@ h2.heading:hover
     height:335px;
     right:10px;
   }
-  .card1 
+  .cardd1 
   {
     width:220px;
     position: relative;
@@ -1251,7 +1261,7 @@ h2.heading:hover
     right:30px;
     height:335px;
   }
-  .card2 
+  .cardd2 
   {
     width:220px;
     position: relative;
@@ -1259,7 +1269,7 @@ h2.heading:hover
     height:335px;
     right:490px;
   }
-  .card3 
+  .cardd3 
   {
     width:220px;
     position: relative;
@@ -1282,7 +1292,7 @@ h2.heading:hover
   margin-bottom: 2vw;
 }
 
-.card-wrapper {
+.cardd-wrapper {
   position: relative;
   
   width: 100%;
@@ -1291,12 +1301,12 @@ h2.heading:hover
           box-sizing: border-box;
 }
 
-.card-wrapper:active, .card-wrapper:hover, .card-wrapper:focus {
+.cardd-wrapper:active, .cardd-wrapper:hover, .cardd-wrapper:focus {
   outline: none;
   border: none;
 }
 
-.card {
+.cardd {
   width: 100%;
   height: 450px;
   border-radius: 16px;
@@ -1305,7 +1315,7 @@ h2.heading:hover
   position: relative;
 }
 
-.card .cgg {
+.cardd .cgg {
   position: absolute;
   top: 0;
   left: 0;
@@ -1317,20 +1327,20 @@ h2.heading:hover
   transition: .5s;
 }
 
-.card .cgg .cmg {
+.cardd .cgg .cmg {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
 }
 
-.card:hover .cmg {
+.cardd:hover .cmg {
   opacity: .4;
   -webkit-transition: .5s;
   transition: .5s;
 }
 
-.card:hover .cgg {
+.cardd:hover .cgg {
   -webkit-transform: translateY(-100px);
           transform: translateY(-100px);
   -webkit-transition: all .9s;
@@ -1372,7 +1382,7 @@ h2.heading:hover
   opacity: 0;
 }
 
-.card:hover .social-icons li a {
+.cardd:hover .social-icons li a {
   -webkit-transform: translateY(0px);
           transform: translateY(0px);
   opacity: 1;
@@ -1399,22 +1409,22 @@ h2.heading:hover
   color: #fff;
 }
 
-.card:hover li:nth-child(1) a {
+.cardd:hover li:nth-child(1) a {
   -webkit-transition-delay: .1s;
           transition-delay: .1s;
 }
 
-.card:hover li:nth-child(2) a {
+.cardd:hover li:nth-child(2) a {
   -webkit-transition-delay: .2s;
           transition-delay: .2s;
 }
 
-.card:hover li:nth-child(3) a {
+.cardd:hover li:nth-child(3) a {
   -webkit-transition-delay: .3s;
           transition-delay: .3s;
 }
 
-.card:hover li:nth-child(4) a {
+.cardd:hover li:nth-child(4) a {
   -webkit-transition-delay: .4s;
           transition-delay: .4s;
 }
@@ -1446,7 +1456,7 @@ h2.heading:hover
   display: block;
 }
 
-.card:hover .details {
+.cardd:hover .details {
   bottom: 0;
 }
 
@@ -1523,7 +1533,7 @@ h2.heading:hover
   font-family: "Raleway", sans-serif;
 
 background-attachment: fixed;
- background-image: url('https://img.freepik.com/free-vector/wedding-invitation-announcement-card-with-floral-background-artwork_1217-1058.jpg?w=2000');
+ background-image: url('https://img.freepik.com/free-vector/wedding-invitation-announcement-cardd-with-floral-background-artwork_1217-1058.jpg?w=2000');
 }
 
 .nag 
@@ -1552,7 +1562,7 @@ background-attachment: fixed;
 }
 .gang 
 {
-  background-image: url('https://www.shutterstock.com/shutterstock/photos/691379710/display_1500/stock-photo-vintage-card-watercolor-wedding-invitation-design-with-pink-rose-bud-and-leaves-flower-691379710.jpg');
+  background-image: url('https://www.shutterstock.com/shutterstock/photos/691379710/display_1500/stock-photo-vintage-cardd-watercolor-wedding-invitation-design-with-pink-rose-bud-and-leaves-flower-691379710.jpg');
   height:800px;
   background-attachment: fixed;
   position: relative;

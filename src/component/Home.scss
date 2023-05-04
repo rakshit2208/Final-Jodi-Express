@@ -5,7 +5,7 @@
     text-align: center;
     margin-bottom:2vw;
 }
-.card-wrapper{
+.cardd-wrapper{
     position:relative;
     width:100%;
     padding:0 10px;
@@ -14,16 +14,16 @@
         outline:none;
         border:none;
     }
-}//card-wrapper
+}//cardd-wrapper
 
-.card{
+.cardd{
     width:100%;
     height:450px;
     border-radius: 16px;
     overflow: hidden;
     cursor:pointer;
     position: relative;
-    .card-image{
+    .cardd-image{
         position: absolute;
         top:0;
         left:0;
@@ -37,18 +37,18 @@
             height:100%;
             object-fit: cover;
         }
-    }//card-image
+    }//cardd-image
     &:hover{
         img{
             opacity:.4;
             transition:.5s;
         }
-        .card-image{
+        .cardd-image{
             transform:translateY(-100px);
             transition:all .9s;
         }
     }
-}//card
+}//cardd
 
 .social-icons{
     position: absolute;;
@@ -78,7 +78,7 @@
     }
 }//social-icons
 
-.card:hover{
+.cardd:hover{
     .social-icons li a{
         transform:translateY(0px);
         opacity:1;
@@ -99,16 +99,16 @@
    }
 }
 
-.card:hover li:nth-child(1) a{
+.cardd:hover li:nth-child(1) a{
     transition-delay: .1s;
 }
-.card:hover li:nth-child(2) a{
+.cardd:hover li:nth-child(2) a{
     transition-delay: .2s;
 }
-.card:hover li:nth-child(3) a{
+.cardd:hover li:nth-child(3) a{
     transition-delay: .3s;
 }
-.card:hover li:nth-child(4) a{
+.cardd:hover li:nth-child(4) a{
     transition-delay: .4s;
 }
 .details{
@@ -135,7 +135,7 @@
     }
 }
 
-.card:hover{
+.cardd:hover{
     .details{
         bottom:0;
     }

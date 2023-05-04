@@ -41,13 +41,13 @@
   border-radius: 5px;
   background: #ea025b;
 }
-.content form .user-details{
+.content33 form .user-details{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   margin: 20px 0 12px 0;
 }
-form .user-details .input-box {
+form .user-details .input-box22 {
   margin-bottom: 15px;
   width: calc(100% / 2 - 20px);
 }
@@ -56,7 +56,7 @@ form .user-details .input-box {
   margin-bottom: 15px;
   width: calc(100% / 2 - 20px);
 }
-form .input-box span.details{
+form .input-box22 span.details{
   display: block;
   font-weight: 500;
   margin-bottom: 5px;
@@ -66,7 +66,7 @@ form .input-box span.details{
   width: 500px;
  
 }
-.user-details .input-box input{
+.user-details .input-box22 input{
   height: 45px;
   width: 100%;
   outline: none;
@@ -77,7 +77,7 @@ form .input-box span.details{
   border-bottom-width: 2px;
   transition: all 0.3s ease;
 }
-.user-details .input-box input:focus{
+.user-details .input-box22 input:focus{
   border-color: #060047;;
 }
  form .gender-details .gender-title{
@@ -138,14 +138,14 @@ form .input-box span.details{
  .formcontainer{
   max-width: 100%;
 }
-form .user-details .input-box{
+form .user-details .input-box22{
     margin-bottom: 15px;
     width: 100%;
   }
   form .category{
     width: 100%;
   }
-  .content form .user-details{
+  .content33 form .user-details{
     max-height: 300px;
     overflow-y: scroll;
   }
@@ -157,7 +157,7 @@ form .user-details .input-box{
     .formcontainer {
       max-width: 400px;
     }
-  .formcontainer .content .category{
+  .formcontainer .content33 .category{
     flex-direction: column;
   }
 }

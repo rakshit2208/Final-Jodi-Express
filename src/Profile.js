@@ -82,22 +82,22 @@ function Profile(props) {
     <div>
      <div className="formcontainer">
   <div className="title">Basic Details</div>
-  <div className="content">
+  <div className="content33">
     <form action="#">
       <div className="user-details">
-        <div className="input-box">
-          <span className="details">Full Name</span>
+        <div className="input-box22">
+          <span className="">Full Name</span>
           <input type="text" placeholder="name" required value={fullName}  onChange={(e) => setFullName(e.target.value)} name="fullName" />
         </div>
-        <div className="input-box">
-          <span className="details">DOB</span>
+        <div className="input-box22">
+          <span className="">DOB</span>
           <input type="date" required value={dob}   onChange={(e) => setDOB(e.target.value)} name="dob"/>
         </div>
         {/* <div className="input-box">
           <span className="details">Place Of Birth</span>
           <input type="text" placeholder="birth place" required value={pob}  onChange={(e) => setPOB(e.target.value)} name="pob" />
         </div> */}
-        <select className="form-select input-box" required value={pob} onChange={(e) => setPOB(e.target.value)} name="pob" aria-label="Default select example">
+        <select className="form-select input-box22" required value={pob} onChange={(e) => setPOB(e.target.value)} name="pob" aria-label="Default select example">
         <option selected>Place Of Birth</option>
         <option value="Mumbai">Mumbai</option>
         <option value="Delhi">Delhi</option>
@@ -111,20 +111,20 @@ function Profile(props) {
         <option value="Pune">Pune</option>
       </select>
         
-      <select className="form-select input-box" required value={gender} onChange={(e) => setGender(e.target.value)} name="gender" aria-label="Default select example">
+      <select className="form-select input-box22" required value={gender} onChange={(e) => setGender(e.target.value)} name="gender" aria-label="Default select example">
       <option selected>Gender</option>
       <option value="Male">Male</option>
       <option value="Female">Female</option>
     </select>
 
-        <div className="input-box">
-          <span className="details">Phone Number</span>
+        <div className="input-box22">
+          <span className="">Phone Number</span>
           <input type="tel" placeholder="phone number" maxLength={10}  required value={phone}  onChange={(e) => setPhone(e.target.value)} name="phone"/>
         </div>
         
         
-        <div className="input-box">
-          <span className="details">Height</span>
+        <div className="input-box22">
+          <span className="">Height</span>
           <input type="text" placeholder="height" required value={height}  onChange={(e) => setHeight(e.target.value)} name="height" />
         </div>
        

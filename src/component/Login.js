@@ -12,8 +12,8 @@ import  * as Components from './Components';
                   <Components.Form>
                   <h1 className='af'>Sign Up</h1>
                       <Components.Title></Components.Title>
-                      <Components.Input type='text' placeholder='Name' />
-                      <Components.Input type='number' placeholder='Phone Number' />
+                      <Components.Input type='text' placeholder='User Name' />
+                      <Components.Input type='email' placeholder='Email' />
                       <Components.Input type='password' placeholder='Password' />
                       <Components.Button >Sign Up</Components.Button>
                   </Components.Form>
@@ -23,7 +23,7 @@ import  * as Components from './Components';
                    <Components.Form>
                     <h1 className='af'>Login</h1>
                        <Components.Title ></Components.Title>
-                       <Components.Input type='number' placeholder='Phone Number' />
+                       <Components.Input type='email' placeholder='Email' />
                        <Components.Input type='password' placeholder='Password' />
                        <Components.Anchor href='#'>Forgot your password?</Components.Anchor>
                        <Components.Button  >Login</Components.Button>

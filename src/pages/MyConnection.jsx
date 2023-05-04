@@ -42,7 +42,7 @@ const MyConnection = (props) => {
 
   return (
 
-    <div className='container mc mcont'>
+    <div className='container mc mcont' style={{marginLeft:"12%"}}>
 
      <Sidebar username={props.name} />
 

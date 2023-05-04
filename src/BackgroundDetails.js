@@ -79,10 +79,10 @@ function BackgroundDetails() {
     <div>
        <div className="formcontainer">
   <div className="title">Background Details</div>
-  <div className="content">
+  <div className="content33">
     <form action="#">
       <div className="user-details">
-      <select className="form-select input-box" required value={religion} onChange={(e) => setReligion(e.target.value)} name="pob" aria-label="Default select example">
+      <select className="form-select input-box22" required value={religion} onChange={(e) => setReligion(e.target.value)} name="pob" aria-label="Default select example">
         <option selected>Religion</option>
         <option value="Hindu">Hindu</option>
         <option value="Muslim">Muslim</option>
@@ -97,19 +97,19 @@ function BackgroundDetails() {
       </select>
 
        
-        <div className="input-box">
-          <span className="details">Caste</span>
+        <div className="input-box22">
+          <span className="">Caste</span>
           <input type="text" placeholder=" caste" required value={caste}  onChange={(e) => setCaste(e.target.value)} name="caste" />
         </div>
-        <div className="input-box">
-          <span className="details">Sub Caste</span>
+        <div className="input-box22">
+          <span className="">Sub Caste</span>
           <input type="text" placeholder=" sub caste" required value={subcaste}  onChange={(e) => setSubCaste(e.target.value)} name="subcaste" />
         </div>
-        {/* <div className="input-box">
+        {/* <div className="input-box22">
           <span className="details">Rashi</span>
           <input type="text" placeholder=" rashi" required value={rashi}  onChange={(e) => setRashi(e.target.value)} name="rashi" />
         </div> */}
-        <select className="form-select input-box" required value={rashi} onChange={(e) => setRashi(e.target.value)} name="pob" aria-label="Default select example">
+        <select className="form-select input-box22" required value={rashi} onChange={(e) => setRashi(e.target.value)} name="pob" aria-label="Default select example">
         <option selected>Rashi</option>
         <option value="Mesh">Mesh</option>
         <option value="Vrishabh">Vrishabh</option>

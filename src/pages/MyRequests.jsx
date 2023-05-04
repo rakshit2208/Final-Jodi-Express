@@ -10,6 +10,7 @@ import {arrayUnion, arrayRemove } from "firebase/firestore";
 import { MDBBtn } from 'mdb-react-ui-kit';
 
 
+
 const db = getFirestore(app)
 
 const MyRequests = (props) => {
@@ -181,7 +182,7 @@ const MyRequests = (props) => {
     <div>
       <Sidebar username={props.name}/>
         
-      <div className="tabset">
+      <div className="tabset" style={{marginLeft:"13%"}}>
   <input type="radio" name="tabset" id="tab1" aria-controls="marzen" defaultChecked />
   <label htmlFor="tab1">Sent</label>
   <input type="radio" name="tabset" id="tab2" aria-controls="rauchbier" />

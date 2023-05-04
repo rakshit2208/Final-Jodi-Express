@@ -1,9 +1,9 @@
 import React from 'react';
 import Search from './Search';
 import Sidebar from '../Sidebar';
-import { MDBSpinner } from 'mdb-react-ui-kit';
+// import { MDBSpinner } from 'mdb-react-ui-kit';
 
-import Grid from '../Grid';
+// import Grid from '../Grid';
 // import CardDetails from '../CardDetails';
 
 

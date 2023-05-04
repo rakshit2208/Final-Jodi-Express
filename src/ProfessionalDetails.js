@@ -77,11 +77,11 @@ function ProfessionalDetails() {
     <div>
       <div className="formcontainer">
         <div className="title">Professional Details</div>
-        <div className="content">
+        <div className="content33">
           <form action="#">
             <div className="user-details">
 
-            <select className="form-select input-box" required value={workplace} onChange={(e) => setWorkPlace(e.target.value)} name="pob" aria-label="Default select example">
+            <select className="form-select input-box22" required value={workplace} onChange={(e) => setWorkPlace(e.target.value)} name="pob" aria-label="Default select example">
         <option selected>Employed In</option>
         <option value="Mumbai">Mumbai</option>
         <option value="Delhi">Delhi</option>
@@ -94,12 +94,12 @@ function ProfessionalDetails() {
         <option value="Punjab">Punjab</option>
         <option value="Pune">Pune</option>
       </select>
-              {/* <div className="input-box">
+              {/* <div className="input-box22">
                 <span className="details">Employed In</span>
                 <input type="text" placeholder="Work place" required value={workplace}  onChange={(e) => setWorkPlace(e.target.value)} name="workplace" />
               </div> */}
-              <div className="input-box">
-                <span className="details">Annual Income</span>
+              <div className="input-box22">
+                <span className="">Annual Income</span>
                 <input
                   type="number"
                   placeholder="annual income"
@@ -107,8 +107,8 @@ function ProfessionalDetails() {
                   value={income}  onChange={(e) => setIncome(e.target.value)} name="income"
                 />
               </div>
-              <div className="input-box">
-                <span className="details">Phone Number</span>
+              <div className="input-box22">
+                <span className="">Phone Number</span>
                 <input type="tel"  maxLength={10} placeholder="phone number" required value={contact}  onChange={(e) => setContact(e.target.value)} name="contact" />
               </div>
             </div>

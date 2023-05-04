@@ -5,8 +5,7 @@
     border: none;
     outline: none;
     font-family: "Poppins", sans-serif;
-    /* vertical-align: top; */
-     
+  
   }
   body {
     background-color: #f5f8ff;
@@ -18,9 +17,10 @@
     padding: 10px;
   }
 
-  .mc{
+  /* .mc{
     margin-left: 7%;
-  }
+    
+  } */
 
   .connectBtn , .detailBtn{
     margin: 2px;
@@ -31,7 +31,6 @@
   .searchBarwrapper {
     margin-top: 7%;
     margin-left: 2%;
-
     width: 94%;
     background: #ffffff;
     border-radius: 5px;
@@ -175,11 +174,16 @@
       /* max-width: 10em; */
       margin-top: 1em;
       border-radius: 20px;
+      margin-left: -25px;
+      /* padding: 30px; */
       /* width: 120%; */
     }
+   
 
     .mc{
-      margin-left:0;
+      margin-left:0px;
+      margin-top: 30%;
+     
     }
     #products {
       grid-template-columns: auto auto;
@@ -232,6 +236,7 @@
     }
     .card{
       width: 100%;
+      /* margin-left: 0; */
     }
 
   }

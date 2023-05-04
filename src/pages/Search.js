@@ -403,10 +403,10 @@ function Search() {
    
 
   return (
-    <div className='container mc'>
+    <div className='mc' style={{marginLeft:"12%"}}>
      <div className="searchBarwrapper">
   <div id="search-scontainer">
-    <input type="search" id="search-input" placeholder="Search here.." />
+    <input type="search" id="search-input" placeholder="Search here.."/>
     <button id="searchbtn" type='submit' onClick={applyFilter} >Search</button>
     <button id="clr" type='submit' onClick={clearFilter} >Clear Filter</button>
   </div>
@@ -502,7 +502,7 @@ function Search() {
   { members.map((item) => (
  
     <div className="col-sm-4" >
-      <div className="card " style={{width: '100%'}}>
+      <div className="card" style={{width: '100%'}} >
         <img src="https://www.w3schools.com/howto/img_avatar.png"  className="card-img-top" alt="..." />
         <div className="card-body">
           <h5 className="card-title"> {item.fullName}</h5>

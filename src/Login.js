@@ -68,17 +68,17 @@ function Login() {
 
 
     <div className="title">Login</div>
-    <div className="content">
+    <div className="content11">
       <form action="#">
         <div className="user-details1">
           
           <div className="input-box1">
-            <span className="details">Email</span>
+            <span className="details12">Email</span>
             <input type="email" placeholder="Enter your email" required value={email}  onChange={(e) => setEmail(e.target.value)} name="email" />
           </div>
          
           <div className="input-box1">
-            <span className="details">Password</span>
+            <span className="details12">Password</span>
             <input type="password" placeholder="Enter your password" required value={password}  onChange={(e) => setPassword(e.target.value)} name="password" />
           </div>
           <p className="errormsg">{errorMsg}</p>
@@ -91,8 +91,8 @@ function Login() {
               autoClose={5000}
             />
 
-            <span className="text">Don't Have An Account? &nbsp;
-              <Link to="/signup" className="text login-link">Signup</Link>
+            <span className="text12">Don't Have An Account? &nbsp;
+              <Link to="/signup" className="text12">Signup</Link>
             </span>
           </div>
           
